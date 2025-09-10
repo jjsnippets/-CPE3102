@@ -69,7 +69,7 @@ p1 = [1 32 8 85 4 1 3 1];
 no6a = roots(p1)
 
 % 6b
-p2 = [3 -1 24 9 7 2];
+p2 = [3 -1 24 9 6 2];
 no6b = roots(p2)
 
 % 6c
@@ -81,6 +81,3 @@ no7a = conv(p1, p2)
 
 % 7b
 no7b = conv(p1, p3)
-
-% 7c
-no7c = conv(p2, p3)
