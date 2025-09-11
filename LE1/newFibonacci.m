@@ -1,6 +1,6 @@
 % CPE 3102 - FEEDBACK AND CONTROL SYSTEMS
 % Group 3   TTh 10:30 AM - 1:30 PM LB265 TC
-% Sarcol, Joshua S      BS-CpE 3        2025/09/10
+% Cabigon, Timothy Chad; Sarcol, Joshua      BS-CpE 3        2025/09/10
 % LE1 | Introduction to Matlab #1b 
 
 % Fibonacci
