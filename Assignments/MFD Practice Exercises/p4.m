@@ -31,6 +31,6 @@ J2 = subs(J2, [theta1(0), theta2(0), subs(diff(theta2(t),t), t, 0)], [0, 0, 0]);
 % solve for O1(s) and O2(s)
 sol = linsolve(As, bs);
 
-% solve for the transform function
-G = O1(s)/T(s) == simplifyFraction(sol(1)/T(s));  % O1(s)/T(s)
+% transform function G(s) = O1(s)/T(s)
+G = simplifyFraction(sol(1)/T(s));
 pretty(G)
